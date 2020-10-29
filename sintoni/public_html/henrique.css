@@ -1,0 +1,40 @@
+#WelcomeMessage{
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 2em;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.8);
+    min-height: 5em;
+    margin-top: 5em;
+}
+
+
+#wrapper{
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.newsBody{
+    text-align: justify;
+    padding: 1em;
+    padding-right: 2em;
+
+}
+.newsTitle{
+   text-align: center;
+}
+.newsIcon{
+    max-height: 10em;
+    float: left;
+}
+.navLogo{
+    position: relative;
+    left: 0;
+    max-height: 200%;
+
+}
+@media screen and (max-width: 600px) {
+
+}

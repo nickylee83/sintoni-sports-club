@@ -1,0 +1,350 @@
+
+html, body{
+    height:100%;
+}
+.full {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.wide {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 800;
+    font-size: 14pt;
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(200,200,200,0.5);
+
+
+}
+.line {
+    padding-top: 20px;
+
+    overflow: hidden;
+    text-align: center;
+}
+@media (orientation: portrait) {
+    .full {
+        background-size: 200% auto;
+        background-position: top right;
+    }
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: moccasin;
+}
+/* Start */
+
+
+main{
+    margin: 0 auto;
+}
+
+p {
+    margin: 4px;
+}
+
+
+footer li{
+    list-style-type: none;
+}
+
+footer h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: steelblue;
+}
+
+.FooterUl{
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.FooterUl li{
+    display: list-item;
+    text-align: left;
+}
+
+.FooterUl li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#form-properties{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#test {
+    margin: 0 auto;
+}
+
+#Fernanda{
+    background-color:  mediumpurple;
+}
+
+#Myo{
+    background-color: #FFFF66;
+}
+
+#Henrique{
+    background-color: lightskyblue;
+}
+
+#Victor{
+    background-color: greenyellow;
+}
+
+
+.beautify{
+    line-height: 2em;
+    text-align: center;
+}
+
+.decorator{
+    width: 90%;
+    margin: 0 auto;
+    background-color: inherit;
+    padding: 60px 50px;
+}
+
+.clearfix{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+#footer{
+    background-color: #333333;
+}
+
+#footer p{
+    color: white;
+}
+
+#footer-properties{
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.moarProperties{
+    padding-bottom: 3em;
+    padding-top: 2em;
+}
+
+.second-bar{
+    padding: 2%;
+    background-color: #333333;
+}
+
+.social-icons a{
+    font-size: 300%;
+}
+
+.footer-copyright a{
+    font-size: 90%;
+    font-style: italic;
+    color: white;
+}
+
+.bg-grey{
+    background-color: darkorange;
+}
+
+.footer-copyright{
+    color: white;
+}
+
+/* End Of Victor first CSS*/
+
+/* Fernanda's CSS*/
+
+/*========================NEWS PAGE* ========================*/
+
+.news-page{
+    background-color: white;
+    padding: 2% 8%;
+}
+
+.main-container{
+    background-color: #edeef0;
+}
+
+.news-page-title{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    padding-bottom: 4%;
+    /*font-weight: bold;*/
+}
+
+.news-page-title h1{
+    font-size: 3em;
+}
+
+.news-article{
+    margin-bottom: 6%;
+    font-family: Raleway, sans-serif;
+}
+
+.article-title{
+    font-family: 'Oswald', sans-serif;
+}
+
+.article-content p{
+    text-align: justify ;
+}
+
+/*Main Page's Sidebar open hours table*/
+
+.open-hours-table {
+    padding: 6% 15px 3% 15px;
+}
+
+aside h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+.open-hours-table tr{
+    font-family: 'Oswald 400', sans-serif;
+}
+
+.open-hours-table td{
+    padding-bottom: 2%;
+}
+
+.enroll{
+    padding: 0 15px 0 15px;
+    font-family: 'Oswald 800', sans-serif;
+    font-weight: bold !important;
+}
+.enroll h5{
+    margin-left: 5%;
+    float: left;
+    text-align: left;
+    font-family: 'Oswald 800', sans-serif;
+    font-weight: bold;
+}
+
+aside-news{
+    margin-top: 15px;
+}
+
+.enroll-button{
+    float: left;
+}
+
+/*EVENTS' PAGE*/
+
+.events-page-title{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    padding-bottom: 4%;
+    /*font-weight: bold;*/
+}
+.events-intro p{
+    margin-bottom: 1em;
+    font-family: "Raleway";
+}
+
+#festival-colour{
+    width: auto;
+}
+
+.events-page-title h1{
+    font-size: 3em;
+}
+
+.events-intro p{
+    font-size: 1.1em;
+}
+.events-article{
+    clear: both;
+    margin-bottom: 6%;
+}
+
+.events-title{
+    font-family: Montserrat, sans-serif;
+    padding-top: 6%
+}
+
+.events-content p{
+    text-align: justify ;
+}
+
+/*Admin Events*/
+.card-title{
+    margin-top: 1.6%;
+}
+
+#events-card{
+    margin-top: 1%;
+}
+
+.events-article{
+    font-family: Raleway, sans-serif;
+}
+
+.events-h3{
+    text-align: center;
+}
+
+#events-card-body h5{
+color: #333333;
+}
+
+.events-crud-container{
+    margin-top: 2%;
+}
+
+footer{
+    clear: both;
+}
+/*Services css
+*************/
+
+.service-content{
+    color: #777777;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.service-content h2{
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    padding-bottom: 5px;
+    letter-spacing: 5px;
+}
+
+
+.inner-content {
+    color: black;
+}
+
+.parallax-mirror{
+    opacity: 0.5;
+    z-index: 50;
+}
